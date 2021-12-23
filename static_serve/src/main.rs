@@ -1,3 +1,10 @@
+use kingkong::prelude::*;
+
+routes! {
+    GET "/" => |_| "<img src='/kingkong.jpeg'>";
+}
+
 fn main() {
-    println!("Hello");
+    asset_dir!("./assets");
+    run!().unwrap();
 }
