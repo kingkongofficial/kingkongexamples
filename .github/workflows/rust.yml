@@ -18,3 +18,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Check cargo version
       run: cargo version
+
+    - name: helloworld
+      run: |
+        cd helloworld/
+        cargo build
