@@ -1,3 +1,9 @@
+use kingkong::prelude::*;
+
+routes! {
+    GET "/" => |_| "Hello Everyone";
+}
+
 fn main() {
-    println!("Hello, world!");
+    kingkong::run!();
 }
