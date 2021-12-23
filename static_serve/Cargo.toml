@@ -1,0 +1,7 @@
+[package]
+name = "static_serve"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+kingkong = { git = "https://github.com/kingkongofficial/kingkong" }
